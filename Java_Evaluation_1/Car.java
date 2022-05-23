@@ -5,7 +5,7 @@ public class Car{
 }
 
 		
-class Car {
+public class Car {
 	private String model;
 	private String companyName;
 	private String color;
@@ -48,7 +48,7 @@ class Car {
 			Car car1 = new Car();
 			car1.printDetails();
 			System.out.println("----------------------");
-			Car car2 = new Car("Harrier","Tata","Black",10000,110,"Tata");
+			Car car2 = new Car("Harrier","Tata","Black",15000,100,"Tata");
 			car2.printDetails();
 		}
 		
